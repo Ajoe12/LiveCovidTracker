@@ -28,7 +28,7 @@ const Covid = () => {
   return(
     <>
     <section className="m-3 text-light"><strong>
-    <div className="container text-center mt-5 " id=" heading">
+    <div className="container text-center mt-5 ">
       <h2 id="head1">🔴 Live</h2> 
       <h3 id="head2">COVID-19 CORONAVIRUS 😷 TRACKER </h3>
     </div>
@@ -38,7 +38,7 @@ const Covid = () => {
           <div className="card bg-primary m-2">
              <div className="card-body text-center ">
                <h5 className="card_name"><span> OUR </span> COUNTRY </h5>
-               <h1 className="card_total card_small"> INDIA </h1>
+               <h1 className="card_small"> INDIA </h1>
              </div>               
           </div>          
         
@@ -47,7 +47,7 @@ const Covid = () => {
           <div className="card bg-warning m-2">
              <div className="card-body text-center">
                <h5 className="card_name"><span> TOTAL </span> RECOVERED </h5>
-               <h1 className="card_total card_small"> {data.recovered} </h1>
+               <h1 className="card_small"> {data.recovered} </h1>
              </div>               
           </div>          
         
@@ -56,9 +56,9 @@ const Covid = () => {
           <div className="card bg-success m-2">
              <div className="card-body text-center">
                <p className="card_name"><span> TOTAL </span> CONFIRMED </p>
-               <h1 className="card_total card_small"> {data.confirmed} </h1>
+               <h1 className="card_small"> {data.confirmed} </h1>
              </div>               
-          </div>          
+          </div>         
         
       </div>
 
@@ -67,7 +67,7 @@ const Covid = () => {
           <div className="card bg-danger m-2">
              <div className="card-body text-center">
                <h5 className="card_name"><span> TOTAL </span> DEATH </h5>
-               <h1 className="card_total card_small"> {data.deaths} </h1>
+               <h1 className="card_small"> {data.deaths} </h1>
              </div>               
           </div>          
         
@@ -76,7 +76,7 @@ const Covid = () => {
           <div className="card bg-info m-2">
              <div className="card-body text-center">
                <h5 className="card_name"><span> TOTAL </span> ACTIVE </h5>
-               <h1 className="card_total card_small"> {data.active} </h1>
+               <h1 className="card_small"> {data.active} </h1>
              </div>               
           </div>          
         
@@ -85,7 +85,7 @@ const Covid = () => {
           <div className="card bg-secondary m-2">
              <div className="card-body text-center">
                <h5 className="card_name"><span> LAST </span> UPDATED </h5>
-               <h1 className="card_total card_small"> {data.lastupdatedtime} </h1>
+               <h1 className="card_small"> {data.lastupdatedtime} </h1>
              </div>               
           </div>          
         
