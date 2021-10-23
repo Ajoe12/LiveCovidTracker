@@ -29,7 +29,7 @@ const Covid = () => {
     <>
     <section className="m-3 text-light"><strong>
     <div className="container text-center mt-5 ">
-      <h2 id="head1">🔴 Live</h2> 
+      <h2 id="head1">🔴 Livechgchg</h2> 
       <h3 id="head2">COVID-19 CORONAVIRUS 😷 TRACKER </h3>
     </div>
 
